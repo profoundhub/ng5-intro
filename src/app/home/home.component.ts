@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   itemCount: number = 5;
   btnText: string = 'Add an Item';
   goalText: string = 'My First Life Goal';
+  goals = [];
   
   constructor() { }
 
